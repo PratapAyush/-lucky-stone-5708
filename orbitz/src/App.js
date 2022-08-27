@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from "./Components/Navbar/Navbar"
-import Route from "./Components/Routes/Routes"
+import Route from "./Routes/Routes"
 
 
 function App() {

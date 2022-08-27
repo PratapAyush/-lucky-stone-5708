@@ -1,15 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import HomepageStatic from "./Components/HomePage/HomepageStatic"
-import Footer from './Components/Footer/Footer';
+import Navbar from "./Components/Navbar/Navbar"
+import Route from "./Components/Routes/Routes"
 
 
 function App() {
   return (
     <div className="App">
       
-    <HomepageStatic/>
-    <Footer/>
+    <Navbar/>
+    <Route/>
+    
     </div>
   );
 }

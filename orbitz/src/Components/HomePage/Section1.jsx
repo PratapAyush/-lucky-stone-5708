@@ -28,9 +28,9 @@ export default function Section1() {
     const classes = useStyles();
     
     return (
-        <MainCont>
-            <Cont>
-                <ImgCont>
+        <MainContainer>
+            <Container>
+                <ImgContainer>
                     <Img>
                         <Text>
                             <h3>GIVE THE WORLD A SHOT</h3>
@@ -40,32 +40,32 @@ export default function Section1() {
                             <Button variant="contained" className={classes.btn}>Learn more</Button>
                         </Text>
                     </Img>
-                </ImgCont>
-            </Cont>
+                </ImgContainer>
+            </Container>
             <Para>
                 <ParaIn>
                     For every eligible Orbitz booking, Expedia, Inc. will donate $2 USD, up to $12 million USD, in support of UNICEF’s global COVID-19 response. Expedia, Inc. pledges a minimum donation of $10 million USD. Certain eligibility criteria apply.
                     Click Learn more above for complete program terms. Learn more about UNICEF's work at www.unicef.org
                 </ParaIn>
             </Para>
-            <Card2Cont>
+            <Card2Container>
                 {img.map((i) => (
                 <Card2>
                     <img src={i.url} alt="" />
                 </Card2>
                 ))};
-            </Card2Cont>
-        </MainCont>  
+            </Card2Container>
+        </MainContainer>  
     )
 }
-const MainCont = styled.div`
+const MainContainer = styled.div`
     padding-bottom: 0.75rem;
     //padding-top: 0.75rem;
 `
-const Cont = styled.div`
+const Container = styled.div`
     padding: 0.75rem 0.75rem 1.5rem 0.75rem;
 `
-const ImgCont = styled.div`
+const ImgContainer = styled.div`
     padding: 0.75rem;
 `
 const Img = styled.div`
@@ -100,7 +100,7 @@ const ParaIn = styled.div`
 const Para = styled.div`
     padding: 0.75rem 1.5rem;
 `
-const Card2Cont = styled.div`
+const Card2Container = styled.div`
     width: 100%;
     padding: 1.5rem 0rem;
     display: flex;

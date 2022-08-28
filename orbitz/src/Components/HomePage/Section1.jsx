@@ -29,25 +29,6 @@ export default function Section1() {
     
     return (
         <MainContainer>
-            <Container>
-                <ImgContainer>
-                    <Img>
-                        <Text>
-                            <h3>GIVE THE WORLD A SHOT</h3>
-                            <p>Book on the Orbitz app and we'll help get a covid vaccine to someone,<br />
-                                somewhere who needs it. Let's reopen the world, one trip at a time.
-                            </p>
-                            <Button variant="contained" className={classes.btn}>Learn more</Button>
-                        </Text>
-                    </Img>
-                </ImgContainer>
-            </Container>
-            <Para>
-                <ParaIn>
-                    For every eligible Orbitz booking, Expedia, Inc. will donate $2 USD, up to $12 million USD, in support of UNICEF’s global COVID-19 response. Expedia, Inc. pledges a minimum donation of $10 million USD. Certain eligibility criteria apply.
-                    Click Learn more above for complete program terms. Learn more about UNICEF's work at www.unicef.org
-                </ParaIn>
-            </Para>
             <Card2Container>
                 {img.map((i) => (
                 <Card2>

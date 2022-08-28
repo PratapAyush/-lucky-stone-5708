@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from "./Components/Navbar/Navbar"
-import Route from "./Routes/Routes"
+import Route, { Routes } from "./Routes/Routes"
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       
     <Navbar/>
-    <Route/>
+    <Routes/>
     
     </div>
   );

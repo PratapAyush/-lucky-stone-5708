@@ -8,12 +8,11 @@ import WorkIcon from '@material-ui/icons/Work';
 import ListAltIcon from '@material-ui/icons/ListAlt';
 import DirectionsBoatIcon from '@material-ui/icons/DirectionsBoat';
 import styles from "./Home.module.css";
-// import { PaymentModal } from "../PaymentModal/PaymentModal";
 import HomepageStatic from "../HomepageStatic/HomepageStatic";
 import styled from "styled-components";
 import RewardCard from '../RewardCard/RewardCard'
 import Footer from '../Footer/Footer'
-import HelpBot from "../HelpBot/HelpBoat";
+
 
 export const SearchBar = () => {
     const [valueTab, setValueTab] = useState(0);
@@ -89,7 +88,7 @@ export const SearchBar = () => {
                 <SearchCompact />
                 </Box>
             </div>
-                    <div className={styles.bot}><HelpBot/></div>
+                
             
                 <StaticDivs>
                 <HomepageStatic />

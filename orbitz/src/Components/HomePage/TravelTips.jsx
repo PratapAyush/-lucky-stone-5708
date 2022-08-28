@@ -39,6 +39,7 @@ export default function Vacation() {
                     </CardCont>
                 ))}
                 </ImgCont>
+                <img style={{margin:"2rem 0 0 5rem"}} src='https://tpc.googlesyndication.com/simgad/6659684725855332669?' alt='nu'/>
             </Cont>
         </MainCont>
     )

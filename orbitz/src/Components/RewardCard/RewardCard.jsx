@@ -92,7 +92,7 @@ export default function RewardCard() {
     const classes = useStyles();
  
     return (
-        <CardCont style={{marginTop:"50px"}}>
+        <CardContainer style={{marginTop:"50px"}}>
             <Card className={classes.Card}>
                 <Box>       <img className={classes.Image} src="https://thumbnails.trvl-media.com/CSYM6eB9q4W5M2gqyZNY_NfDEFQ=/a.travel-assets.com/mad-service/footer/marquee/ORB_App_Footer_v1.jpg" alt="RewardImage" />
                 </Box>
@@ -141,11 +141,11 @@ export default function RewardCard() {
                     <Typography className={classes.TexQR}>Scan the QR code</Typography>
                 </Box>
             </Card>
-        </CardCont>
+        </CardContainer>
     );
 }
 
-const CardCont = styled.div` 
+const CardContainer = styled.div` 
         padding: 1.5rem;
         margin-top:50px;
     `

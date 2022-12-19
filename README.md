@@ -1,4 +1,4 @@
-This project is a clone of orbitz.com, which is a travel fare aggregator website. This is an individual project, completed within 5 days as a 'Construct-week' project at Masai School. This website has end to end functionalities from SignUp/LogIn and searching the hotel rooms to booking and payment.
+<h1>This project is a clone of orbitz.com, which is a travel fare aggregator website. This is an individual project, completed within 5 days as a 'Construct-week' project at Masai School. This website has end to end functionalities from SignUp/LogIn and searching the hotel rooms to booking and payment.</h1>
 Deployed link
 subtle-arithmetic-05aa1f.netlify.app/
 Features
